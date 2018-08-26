@@ -106,7 +106,7 @@
 			// current string will be passed as an argument each time after this
 			var self = this;
 			self.timeout = setTimeout(function() {
-				for (var i=0;i<self.strings.length;++i) self.sequence[i]=i;
+				for (var i=0; i<self.strings.length; ++i) self.sequence[i]=i;
 
 				// shuffle the array if true
 				if(self.shuffle) self.sequence = self.shuffleArray(self.sequence);

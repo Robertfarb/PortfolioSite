@@ -1,7 +1,6 @@
 'use strict';
 $(window).load( function() {
 
-
 // LIGHTBOX VIDEO
   $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
 		disableOn: 700,
@@ -14,7 +13,7 @@ $(window).load( function() {
 	});
 
 //PRELOADER
- $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+ $('#preloader').delay(5).fadeOut('slow'); // will fade out the white DIV that covers the website.
 
 
 if ($('.isotope_items').length) {
@@ -41,7 +40,6 @@ if ($('.isotope_items').length) {
 }
 
 }); // window load end
-
 
 
 $(document).ready( function() {
