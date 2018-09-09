@@ -66,6 +66,13 @@ nav ul li a:hover{
 
 .logo{
     float: left;
+    position: fixed;
+    width: 250px;
+    top: 30px;
+}
+
+.logo > img {
+  width: 70%;
 }
 
  .responsive{
