@@ -831,11 +831,6 @@ input:-webkit-autofill {
     float: left;
 }
 
-.work-areas .area .text {
-    width: 80%;
-    float: left;
-}
-
 .work-areas .area .text h6{
     font-size: 15px;
     letter-spacing: 2px;
@@ -845,6 +840,12 @@ input:-webkit-autofill {
 .work-areas .area .text p{
     font-size: 13px;
     line-height: 24px;
+}
+
+.area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -1084,6 +1085,9 @@ a.site-button{
     transition: all ease 0.3s;
 }
 
+/* .owl-item {
+    width: 300px !important;
+} */
 
 
 
