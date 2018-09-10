@@ -848,6 +848,10 @@ input:-webkit-autofill {
     align-items: center;
 }
 
+.text h6 {
+    font-weight: 600;
+}
+
 
 .about h2{
     font-size: 23px;
@@ -1084,10 +1088,6 @@ a.site-button{
     color: #fff;
     transition: all ease 0.3s;
 }
-
-/* .owl-item {
-    width: 300px !important;
-} */
 
 
 
