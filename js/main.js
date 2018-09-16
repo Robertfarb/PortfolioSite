@@ -140,7 +140,11 @@ $('.responsive').on('click', function (e) {
     $('.link').magnificPopup({
         type:'image',
         gallery:{enabled:true},
-        zoom:{enabled: true, duration: 300}
+        zoom:{enabled: true, duration: 300},
+        image: {
+            titleSrc: 'title'
+            // this tells the script which attribute has your caption
+        }
     });
 
        // OWL CAROUSEL GENERAL JS
