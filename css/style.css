@@ -1239,3 +1239,15 @@ a.site-button{
     left: 0;
     z-index: -1;
 }
+
+.mfp-title a {
+  color: white;
+  border-bottom: 1px solid transparent;
+  font-size: 16px;
+}
+
+.mfp-title a:hover {
+  color: white;
+  border-bottom: 1px solid white;
+}
+
