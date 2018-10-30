@@ -456,13 +456,13 @@ input:-webkit-autofill {
 /*------------------------ 2 Home ------------------------*/
 
 .home{
-    background:url(../images/home.jpg) bottom center;
+    background:url(https://s3-us-west-1.amazonaws.com/campout-prod/home.jpg) bottom center;
     width: 100%;
     display: table;
 }
 
 .diag .home{
-    background: url(../images/home.jpg) 50% 57% fixed;
+    background: url(https://s3-us-west-1.amazonaws.com/campout-prod/home.jpg) 50% 57% fixed;
     background-size: cover;
 }
 
@@ -1249,5 +1249,6 @@ a.site-button{
 .mfp-title a:hover {
   color: white;
   border-bottom: 1px solid white;
+  cursor: pointer;
 }
 
