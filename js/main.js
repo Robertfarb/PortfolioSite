@@ -13,7 +13,7 @@ $(window).load( function() {
 	});
 
 //PRELOADER
- $('#preloader').delay(5).fadeOut('slow'); // will fade out the white DIV that covers the website.
+ $('#preloader').delay(1).fadeOut('slow'); // will fade out the white DIV that covers the website.
 
 
 if ($('.isotope_items').length) {
