@@ -456,13 +456,12 @@ input:-webkit-autofill {
 /*------------------------ 2 Home ------------------------*/
 
 .home{
-    background:url(https://s3-us-west-1.amazonaws.com/campout-prod/home.jpg) bottom center;
     width: 100%;
     display: table;
 }
 
 .diag .home{
-    background: url(https://s3-us-west-1.amazonaws.com/campout-prod/home.jpg) 50% 57% fixed;
+    background: #a3ffe2;
     background-size: cover;
 }
 

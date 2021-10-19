@@ -1,6 +1,8 @@
 <!doctype html>
 <html lang="en">
 <head>
+<!-- Google Recaptcha -->
+<script src="https://www.google.com/recaptcha/api.js"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124332327-2"></script>
 <script>
@@ -51,12 +53,6 @@
 <![endif]-->
 </head>
 <body class="diag">
-     <!-- Preloading -->
-    <div id="preloader">
-    	<div class="spinner">
-            <div class="uil-ripple-css" style="transform:scale(0.29);"><div></div><div></div></div>
-        </div>
-    </div>
 
     <nav>
         <div class="row">
@@ -112,15 +108,13 @@
                         <h2>ABOUT ME</h2>
                     </div>
                     <p>
-                        Being born and raised in Los Angeles, my passion for web development and photography has been driven by the always-growing and up-to-date environment surrounding me.
+                        Since graduating from the University of Michigan in April, 2017 - where I obtained my Bachelor of Arts in Cognitive Science, I've worn many different hats as an engineer and deepened my knowledge across the stack. 
                     <br><br>
-                        Since graduating from the University of Michigan in April - where I obtained my Bachelor of Arts in Cognitive Science - I have been sharpening my fullstack development skills.
-                        I am currently a Software Engineer I at Bizrate Insights, where I write in React, Node.js, and Vanilla JS. At BRI, our applications are built using microservice architecture powered by AWS.
+                        During the first two years in my career, I worked as a Software Engineer I at Bizrate Insights, where I developed new features and built out a component library for our client facing application, VitalSigns, written in React, Node.js, Vanilla JS and AWS architecture. After 2 years at Bizrate,
+                        I followed my interest for serving customers at scale and took on a new role as a Web development Engineer II at Amazon Advertising in Santa Monica. I was recently promoted to WDE Lead, which entails leading the global CCLP program (from a technical perspective), mentoring all LA-based Web Development Engineers on the team, 
+                        and defining Front-End best practices for our team. I'm currently learning more about software architecture, and in the process of becoming an AWS certified Solutions Architect.
                     <br><br>
-                        I love creating responsive web applications using Node.js and NoSQL databases on the backend with React.js, and Redux architecture on the frontend. I've recently began doing more research
-                        into graph databases like Neo4j to store hierarchical data, and query that data quickly.
-                    <br><br>
-                        Aside from development I'm an avid cyclist, skiier, rock climber, traveler, and the best dad ever, to my cattle dog / Border Collie mix, Stella.
+                        Aside from development I'm an avid skier, surfer, cyclist, rock climber, and the best dad ever, to my cattle dog / Border Collie mix, Stella.
                     </p>
                 </div>
 
@@ -302,7 +296,8 @@
                             <div class="col-md-12">
                                 <!--Message-->
                                 <textarea name="con_message" id="con_message" class="requie" placeholder="How can I help you?" rows="8"></textarea>
-                                <button id="con_submit" class="sitebtn top_30" type="submit">Submit</button>
+                                <div class="g-recaptcha" data-sitekey="6LcXYE8UAAAAAHWgbOoZ9h1gQcCw7359WxROZXdn"></div>
+                                <input id="con_submit" class="sitebtn top_30" type="submit" name="submit" />
                             </div>
                         </div>
                     </form>

@@ -128,7 +128,7 @@ $('.responsive').on('click', function (e) {
 
     // HOME TYPED JS
       $(".element").typed({
-        strings: ["Rob", "a Software Developer"],
+        strings: ["Rob", "a Software Engineer"],
         typeSpeed: 10,
         loop:true,
         backDelay: 2000
